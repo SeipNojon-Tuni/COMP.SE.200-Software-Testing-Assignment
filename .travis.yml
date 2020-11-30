@@ -2,7 +2,8 @@ language: node_js
 node_js:
  - 14
 
-github_token: $REPO_TOKEN
+deploy:
+ github_token: $REPO_TOKEN
 
 script:
 npm test
