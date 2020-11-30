@@ -1,4 +1,4 @@
-###### README for Software testing Assignment ######
+###### README for Software Testing Assignment ######
 -- Authors --
 	Sipi Ylä-Nojonen
 	Joonas Pelttari
