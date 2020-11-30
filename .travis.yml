@@ -6,4 +6,4 @@ deploy:
  github_token: $REPO_TOKEN
 
 script:
-npm test
+  "npm test"
