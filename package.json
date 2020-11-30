@@ -5,10 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no tests are implemented yet \" && exit 1"
+    "test": "mocha --timeout 10000 --recursive test"
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "mocha": "^8.2.1"
+  },
   "devDependencies": {}
 }
