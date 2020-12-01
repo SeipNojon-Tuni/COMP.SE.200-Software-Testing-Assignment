@@ -51,24 +51,4 @@ describe("Every", () => {
     });
   });
 
-  describe("Single values", () => {
-    it("Single value true should return true with predicate Boolean", () => {
-      chai.expect(every(true, Boolean)).to.equal(true);
-    });
-
-    it("Single value false should return false with predicate Boolean", () => {
-      chai.expect(every(false, Boolean)).to.equal(false);
-    });
-
-    it("Single value 2 should return true with predicate 'x < 7'", () => {
-      const predicate = (i) => {return i < 7};
-      chai.expect(every(2, predicate )).to.equal(true);
-    });
-
-    it("Single value 22 should return false with predicate 'x < 7'", () => {
-      const predicate = (i) => {return i < 7};
-      chai.expect(every(22, predicate)).to.equal(false);
-    });
-  });
-
 });
