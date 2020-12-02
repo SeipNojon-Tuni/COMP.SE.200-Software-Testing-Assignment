@@ -1,7 +1,7 @@
 import chai from "chai";
 import words from "../src/words.js";
 
-describe("", () => {
+describe("Words", () => {
   it("String 'Apple doesn't fall far from tree.' shoud contain words ['Apple', 'doesn't', 'fall', 'far', 'from', 'tree']", () => {
     const reference = ['Apple', "doesn't", 'fall', 'far', 'from', 'tree'];
     chai.expect(words("Apple doesn't fall far from tree.")).to.be.an('array').to.have.members(reference);
