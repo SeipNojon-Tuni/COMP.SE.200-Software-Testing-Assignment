@@ -1,3 +1,5 @@
+sudo: false
+
 language: node_js
 node_js:
  - 14
@@ -8,3 +10,6 @@ script:
 after_success:
 - ./node_modules/.bin/jscoverage lib lib-cov
 - ./node_modules/.bin/mocha YOUR_TESTS/**.js -R mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js
+
+notifications:
+ email: false
