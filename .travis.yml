@@ -2,12 +2,16 @@ language: node_js
 node_js:
  - 14
 
-before_install:
- "npm install istanbul"
- "npm install nyc"
+install:
+ - npm install istanbul
+ - npm install nyc
+ - npm install coveralls
 
 script:
-  "npm test"
+  - npm test
+  
+after_script:
+  - npm run coverage
 
 notifications:
  email: false
