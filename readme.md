@@ -18,7 +18,9 @@ Individuals who remove or modify the license file will also carry the consequenc
 
 ## Purposes of testing repository
 This is repository for tests made for assignment for the COMP.SE.200 Software Testing course
-at Tampere University. These tests are implemented with NodeJS and integrated with TravisCI pipeline and Coveralls
+at Tampere University. Testing repository contains the original source files accompanied by their
+license as well as  the tests implemented along with control files required for integration with used APIs.
+These tests are implemented with NodeJS and integrated with TravisCI pipeline and Coveralls
 for continuous testing and integrations as well as coverage reporting.
 
 ## Authors
