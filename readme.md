@@ -1,6 +1,6 @@
 # Student template
 
-# SOURCE FILE README
+# Source ReadMe
 
 ## Purpose of this repository
 
@@ -14,7 +14,7 @@ Source code folder contains a separate license file that must **NOT** be removed
 Removing this license file directly violates terms and conditions of the software under testing.
 Individuals who remove or modify the license file will also carry the consequences.
 
-# TESTING
+# Testing ReadMe
 
 ## Purposes of testing
 This is repository for tests made for assignment for the COMP.SE.200 Software Testing course
