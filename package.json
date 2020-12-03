@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
      "test": "nyc --reporter=text node_modules/.bin/mocha test --recursive --timeout=10000",
-     "coverage": "nyc report --reporter=text-lcov | coveralls"
+     "coverage": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "author": "",
   "license": "MIT",
