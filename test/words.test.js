@@ -39,7 +39,7 @@ describe("Words", () => {
    *   => € sign is considered separate word, $ is ignored and disappears.
    */
   it("Currency symbols should not be considered separate words or ignored", () => {
-    const reference = ["Price", "$10", "Apple", "€5"];
+    const reference = ["Orange", "$10", "Apple", "€5"];
     chai.expect(words("Orange $10, Apple €5")).to.be.an('array').to.have.members(reference);
   });
 
