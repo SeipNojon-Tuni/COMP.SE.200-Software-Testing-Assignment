@@ -22,6 +22,6 @@ describe("To String", () => {
     chai.expect(toString([12, 156, 13, 2, 89123])).to.equal("12,156,13,2,89123");
   });
   it("Should throw an error when parameter is not convertable to string", () => {
-    chai.expect( () => { toString({"a":12} ) }).to.throw();
+    chai.expect( () => {toString({"a":12})}).to.throw();
   });
 });
