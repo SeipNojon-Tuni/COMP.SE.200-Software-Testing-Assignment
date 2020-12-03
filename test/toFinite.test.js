@@ -1,7 +1,7 @@
 import chai from "chai";
 import toFinite from "../src/toFinite.js";
 
-describe("", () => {
+describe("To Finite", () => {
   it("Numbers should remain unchanged", () => {
      it("Integers", () => {
         chai.expect(toFinite(123)).to.equal(123);
