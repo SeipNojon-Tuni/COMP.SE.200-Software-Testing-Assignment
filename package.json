@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-     "test": "nyc --reporter=text mocha test --recursive --timeout=10000",
+     "test": "mocha test --recursive --timeout=10000",
      "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "author": "",
