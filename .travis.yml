@@ -3,8 +3,8 @@ node_js:
  - 14
 
 install:
- "npm install istanbul"
- "npm install nyc"
+ - npm install istanbul
+ - npm install nyc
 
 script:
   "npm test"
