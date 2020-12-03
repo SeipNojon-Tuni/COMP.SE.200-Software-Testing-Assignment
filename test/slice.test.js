@@ -22,7 +22,7 @@ describe("Slice", () => {
 
   it("Should consider negative index offset from end", () => {
     const ref2 = ["alpha", "beta", "charlie", "gamma", "echo"]
-    chai.expect(slice(ref2, 2, -1)).to.be.an('array').to.eql(["beta", "charlie", "gamma"]);
+    chai.expect(slice(ref2, 2, -1)).to.be.an('array').to.eql(["charlie", "gamma"]);
   });
 
   it("Should only return slices until array end when ending index is too great", () => {
