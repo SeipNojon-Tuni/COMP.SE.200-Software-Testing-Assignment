@@ -16,8 +16,8 @@ describe("Slice", () => {
   it("Should return slice of array starting from index until end", () => {
     const ref1 = ["alpha", "beta", "charlie"]
     const ref2 = ["alpha", "beta", "charlie", "gamma", "echo"]
-    chai.expect(slice(ref2, 2, 4)).to.be.an('array').to.eql(["charlie"]);
-    chai.expect(slice(ref1, 2, 5)).to.be.an('array').to.eql(["beta", "charlie", "gamma"]);
+    chai.expect(slice(ref2, 2, 4)).to.be.an('array').to.eql(["charlie", "gamma"]);
+    chai.expect(slice(ref1, 2, 3)).to.be.an('array').to.eql(["charlie"]);
   });
 
   it("Should consider negative index offset from end", () => {
