@@ -15,7 +15,7 @@ describe("Reduce", () => {
 
     // String handling is not explicitly defined. Javascript considers it both Object and iterable.
     chai.expect( reduce("That", (sum, n) => sum + n, "This-")).to.equal("This-That");
-    chai.expect( reduce("aaabbc", (sum, n) => { if n == "a" { sum + n }}, "")).to.equal("aaa");
+    chai.expect( reduce("aaabbc", (sum, n) => { return n == "a" ? (sum + n) : sum }, "")).to.equal("aaa");
   });
 
   it("Should return original accumulated value if parameter is not iterable", () => {
