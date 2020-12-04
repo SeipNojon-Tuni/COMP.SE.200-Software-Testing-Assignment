@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "mocha test --recursive --timeout=10000",
-    "coverage": "nyc --experimental-modules mocha test --recursive --timeout=10000",
+    "coverage": "nyc mocha test --recursive --timeout=10000",
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "author": "",
