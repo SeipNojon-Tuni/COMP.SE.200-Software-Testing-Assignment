@@ -1,8 +1,0 @@
-{
-  "all": true,
-  "include": [
-    "src/**.js"
-  ],
-  "exclude": [
-  ]
-}
