@@ -1,8 +1,9 @@
 {
-  "all": true,
-  "include": [
-    "src/**.js"
-  ],
-  "exclude": [
-  ]
+	"all": true,
+	"include": [
+		"src/*.js"
+	],
+	"extensions": [
+		".mjs"
+	]
 }
