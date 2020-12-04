@@ -5,14 +5,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-     "test": "nyc --reporter=text node_modules/.bin/mocha test --recursive --timeout=10000",
-     "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "test": "mocha test --recursive --timeout=10000",
+    "coverage": "nyc --experimental-modules mocha test --recursive --timeout=10000",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "chai": "^4.2.0",
-    "mocha": "^8.2.1"
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0"
   },
   "devDependencies": {
     "coveralls": "^3.1.0",
