@@ -1,7 +1,7 @@
 import chai from "chai";
 import map from "../src/map.js";
 
-describe("", () => {
+describe("Map", () => {
   it("Should map array values ", () => {
     const square = (n) => { return Math.pow(n, 2) };
     chai.expect(map([2, 3, 4, 8], square )).to.eql([4, 9, 16, 64]);
