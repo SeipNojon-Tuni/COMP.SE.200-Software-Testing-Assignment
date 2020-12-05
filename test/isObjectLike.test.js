@@ -12,5 +12,6 @@ describe("Is Object-like", () => {
     chai.expect(isObjectLike(null)).to.equal(false);
     chai.expect(isObjectLike("Object-like")).to.equal(false);
     chai.expect(isObjectLike(777)).to.equal(false);
+    chai.expect(isObjectLike( function(){} )).to.equal(false);
   });
 });
