@@ -1,9 +1,11 @@
 {
-	"all": true,
 	"include": [
-		"src/*.js"
+		"src/**.js"
 	],
-	"extensions": [
-		".mjs"
+	"extension": [
+		".js"
+	],
+	"require": [
+		"esm"
 	]
 }

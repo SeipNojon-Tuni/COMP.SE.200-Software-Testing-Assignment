@@ -3,9 +3,9 @@ node_js:
  - 14
 
 install:
- - npm install istanbul
  - npm install nyc
  - npm install coveralls
+ - npm install esm
 
 script:
   - npm run coverage

@@ -6,17 +6,20 @@
   "type": "module",
   "scripts": {
     "test": "mocha test --recursive --timeout 10000",
-    "coverage": "nyc mocha test --recursive --timeout 10000",
+    "coverage": "nyc node_modules/mocha/bin/_mocha",
     "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "chai": "^4.2.0",
-    "mocha": "^8.2.1"
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0"
+  },
+  "esm": {
+    "cjs": true
   },
   "devDependencies": {
-    "coveralls": "^3.1.0",
-    "nyc": "^15.1.0"
+    "coveralls": "^3.1.0"
   }
 }
