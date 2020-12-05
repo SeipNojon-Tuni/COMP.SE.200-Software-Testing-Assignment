@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "mocha test --recursive --timeout 10000",
     "coverage": "nyc node_modules/mocha/bin/_mocha --require esm",
