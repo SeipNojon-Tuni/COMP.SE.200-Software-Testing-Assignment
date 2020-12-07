@@ -33,4 +33,9 @@ describe("difference()", () => {
     const result = difference([1, 2]);
     chai.expect(result).to.deep.equal([1, 2]);
   });
+
+  it('Should return [] if given a string when expecting an array', () => {
+    const result = difference("TestString", [2, 3]);
+    chai.expect(result).to.deep.equal([]);
+  });
 });
