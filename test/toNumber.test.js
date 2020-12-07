@@ -36,7 +36,7 @@ describe("toNumber()", () => {
 
   it("Should return NaN when value is not convertable to number", () => {
     chai.expect(toNumber("Alpha")).to.be.NaN;
-    chai.expect(["a", "b"]).to.be.NaN;
+    chai.expect(toNumber(["a", "b"])).to.be.NaN;
   });
 
 });
