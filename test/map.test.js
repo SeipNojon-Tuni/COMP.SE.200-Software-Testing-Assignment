@@ -18,9 +18,6 @@ describe("map()", () => {
   it("Should throw error when parameter is not array", () => {
     const double = (n) => { return 2*n }
 
-
-    chai.expect(map("not an array!", double)).to.eql("");
-
     chai.expect(() => {map(undefined, double)}).to.throw();
     chai.expect(() => {map("not an array!", double)}).to.throw();
   });
