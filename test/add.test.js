@@ -4,7 +4,7 @@ const expect = chai.expect;
 //functions tested
 import add from '../src/add.js';
 
-describe('Add.js', () => {
+describe('add()', () => {
 
     it('should return correct sum with two positive numbers', () => {
         const number1 = Math.floor(Math.random() * 100);

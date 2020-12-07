@@ -1,7 +1,7 @@
 import chai from "chai";
 import clamp from "../src/clamp.js";
 
-describe("clamp", () => {
+describe("clamp()", () => {
   //Positive tests:
   it('Should return -5 for (-10, -5, 5)', () => {
     const result = clamp(-10, -5, 5);

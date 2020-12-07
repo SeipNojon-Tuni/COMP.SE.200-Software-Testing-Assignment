@@ -1,11 +1,11 @@
 import chai from "chai";
 import chunk from "../src/chunk.js";
 
-describe("chunk", () => {
+describe("chunk()", () => {
   //Positive tests
   it("Should return [[a, b], [c, d]] for ([a, b, c, d], 2)", () => {
-    const result = chunk(["a", "b", "c", "d"], 2);
-    chai.expect(result).to.equal([["a", "b"],["c", "d"]]);
+    const result = chunk(['a', 'b', 'c', 'd'], 2);
+    chai.expect(result).to.equal([['a', 'b'],['c', 'd']]);
   });
 
   it("Should return [[a, b, c], [d]] for ([a, b, c, d], 3)", () => {

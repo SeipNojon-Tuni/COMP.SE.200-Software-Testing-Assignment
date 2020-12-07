@@ -1,7 +1,7 @@
 import chai from "chai";
 import ceil from "../src/ceil.js";
 
-describe("ceil", () => {
+describe("ceil()", () => {
   //Positive tests
   it("Should return 5 for (4.006)", () => {
     const result = ceil(4.006);

@@ -1,7 +1,7 @@
 import chai from "chai";
 import isBoolean from "../src/isBoolean.js";
 
-describe("isBoolean", () => {
+describe("isBoolean()", () => {
   //Positive tests:
   it('Should return true for false', () => {
     const result = isBoolean(false);

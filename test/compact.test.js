@@ -1,7 +1,7 @@
 import chai from "chai";
 import compact from "../src/compact.js";
 
-describe("compact", () => {
+describe("compact()", () => {
   //Positive tests:
   it('Should return [1, 2, 3] for [0, 1, false, 2, "", 3]', () => {
     const testParam = [0, 1, false, 2, "", 3];

@@ -1,7 +1,7 @@
 import chai from "chai";
 import at from "../src/at.js";
 
-describe("at", () => {
+describe("at()", () => {
   //Positive tests:
   it('Should return [3, 4] for (object, ["a[0].b.c", "a[1]"])', () => {
     const object = { 'a': [{ 'b': { 'c': 3 } }, 4] };

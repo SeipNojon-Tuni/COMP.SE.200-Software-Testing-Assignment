@@ -1,7 +1,7 @@
 import chai from "chai";
 import defaultTo from "../src/defaultTo.js";
 
-describe("defaultTo", () => {
+describe("defaultTo()", () => {
   //Positive tests:
   it('Should return 1 for (1, 10)', () => {
     const result = defaultTo(1, 10);

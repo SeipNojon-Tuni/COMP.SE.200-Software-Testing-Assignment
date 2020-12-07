@@ -1,7 +1,7 @@
 import chai from "chai";
 import divide from "../src/divide.js";
 
-describe("divide", () => {
+describe("divide()", () => {
   //Positive tests:
   it('Should return 1.5 for (6, 4)', () => {
     const result = divide(6, 4);

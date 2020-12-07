@@ -1,7 +1,7 @@
 import chai from "chai";
 import castArray from "../src/castArray.js";
 
-describe("castArray", () => {
+describe("castArray()", () => {
   //Positive tests:
   it('Should return [1] for 1', () => {
     const result = castArray(1);

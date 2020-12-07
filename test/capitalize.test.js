@@ -1,7 +1,7 @@
 import chai from "chai";
 import capitalize from "../src/capitalize.js";
 
-describe("capitalize", () => {
+describe("capitalize()", () => {
   //Positive tests:
   it('Should return "Fred" for "FRED"', () => {
     const testParam = "FRED";

@@ -1,7 +1,7 @@
 import chai from "chai";
 import every from "../src/every.js";
 
-describe("Every", () => {
+describe("every()", () => {
   describe("Arrays", () => {
     it("Empty array should always equal true", () => {
       chai.expect(every([], Boolean)).to.equal(true);
