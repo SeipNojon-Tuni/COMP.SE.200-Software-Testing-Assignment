@@ -1,7 +1,7 @@
 import chai from "chai";
 import isBuffer from "../src/isBuffer.js";
 
-describe("Is Buffer", () => {
+describe("isBuffer()", () => {
   it("Should return true for Buffer", () => {
     chai.expect( isBuffer(new Buffer(2)) ).to.equal(true);
   });

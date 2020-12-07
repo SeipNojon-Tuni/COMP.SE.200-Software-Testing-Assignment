@@ -1,7 +1,7 @@
 import chai from "chai";
 import toString from "../src/toString.js";
 
-describe("To String", () => {
+describe("toString()", () => {
   it("Should convert integer to string", () => {
     chai.expect(toString(123)).to.equal("123");
     chai.expect(toString(0)).to.equal("0");

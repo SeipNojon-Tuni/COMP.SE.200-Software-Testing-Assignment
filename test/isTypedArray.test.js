@@ -1,7 +1,7 @@
 import chai from "chai";
 import isTypedArray from "../src/isTypedArray.js";
 
-describe("isTypedArray", () => {
+describe("isTypedArray()", () => {
   it("Should return true for typed arrays", () => {
     chai.expect(isTypedArray(new Uint8Array)).to.equal(true);
     chai.expect(isTypedArray(new Float32Array)).to.equal(true);

@@ -1,7 +1,7 @@
 import chai from "chai";
 import upperFirst from "../src/upperFirst.js";
 
-describe("Upper First", () => {
+describe("upperFirst()", () => {
   it("Should capitalize first letter of string", () => {
     chai.expect(upperFirst("OMEGA")).to.equal("OMEGA");
     chai.expect(upperFirst("Alpha")).to.equal("Alpha");

@@ -1,7 +1,7 @@
 import chai from "chai";
 import isSymbol from "../src/isSymbol.js";
 
-describe("Is Symbol", () => {
+describe("isSymbol()", () => {
   it("Should return true for symbols", () => {
     chai.expect(isSymbol(Symbol())).to.equal(true);
     chai.expect(isSymbol(Symbol("asd"))).to.equal(true);

@@ -1,7 +1,7 @@
 import chai from "chai";
 import memoize from "../src/memoize.js";
 
-describe("Memoize", () => {
+describe("memoize()", () => {
   it("Should memoize function output", () => {
     const obj = {"a": 12, "b": 25, "c": 30}
     const memo = memoize(Object.values);

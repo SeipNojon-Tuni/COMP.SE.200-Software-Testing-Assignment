@@ -1,7 +1,7 @@
 import chai from "chai";
 import isDate from "../src/isDate.js";
 
-describe("Is Date", () => {
+describe("isDate()", () => {
   it("Should return true for Date objects", () => {
     chai.expect(isDate(new Date)).to.equal(true);
   });

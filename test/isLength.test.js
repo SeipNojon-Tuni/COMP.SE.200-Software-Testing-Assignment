@@ -1,7 +1,7 @@
 import chai from "chai";
 import isLength from "../src/isLength.js";
 
-describe("Is Length", () => {
+describe("isLength()", () => {
   it("Should return true for positive integers", () => {
     chai.expect(isLength(2)).to.equal(true);
     chai.expect(isLength(Number.MAX_SAFE_INTEGER)).to.equal(true);

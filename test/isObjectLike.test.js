@@ -1,7 +1,7 @@
 import chai from "chai";
 import isObjectLike from "../src/isObjectLike.js";
 
-describe("Is Object-like", () => {
+describe("isObjecLike()", () => {
   it("Should return true for object-like values", () => {
     chai.expect(isObjectLike({})).to.equal(true);
     chai.expect(isObjectLike([])).to.equal(true);

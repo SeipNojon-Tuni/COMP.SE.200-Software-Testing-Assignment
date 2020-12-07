@@ -1,7 +1,7 @@
 import chai from "chai";
 import toNumber from "../src/toNumber.js";
 
-describe("To Number", () => {
+describe("toNumber()", () => {
   it("Should convert string containing digits to integer", () => {
     chai.expect(toNumber("1234")).to.equal(1234);
   });

@@ -1,7 +1,7 @@
 import chai from "chai";
 import reduce from "../src/reduce.js";
 
-describe("Reduce", () => {
+describe("reduce()", () => {
   it("Should return reduction for input by given iteratee", () => {
     chai.expect(reduce([1, 2], (sum, n) => sum + n, 0)).to.equal(3);
     chai.expect(reduce([1, 2, 4], (sum, n) => sum + n, 3)).to.equal(10);

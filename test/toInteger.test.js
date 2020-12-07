@@ -1,7 +1,7 @@
 import chai from "chai";
 import toInteger from "../src/toInteger.js";
 
-describe("To Integer", () => {
+describe("toInteger()", () => {
   it("Should convert float to integer rounding it correctly", () => {
     chai.expect(toInteger(3.2)).to.equal(3);
     chai.expect(toInteger(3.7)).to.equal(3);

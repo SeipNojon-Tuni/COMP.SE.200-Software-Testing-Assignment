@@ -1,7 +1,7 @@
 import chai from "chai";
 import isObject from "../src/isObject.js";
 
-describe("Is Object", () => {
+describe("isObject()", () => {
   it("Should return true for objects", () => {
     chai.expect(isObject({"a": 12})).to.equal(true);
     chai.expect(isObject([1, 2])).to.equal(true);

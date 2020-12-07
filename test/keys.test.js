@@ -1,7 +1,7 @@
 import chai from "chai";
 import keys from "../src/keys.js";
 
-describe("Keys", () => {
+describe("keys()", () => {
   it("Should return keys for object", () => {
     chai.expect(keys({"a":1, "b":2, "c":4 })).to.eql(["a", "b", "c"]);
   });

@@ -1,7 +1,7 @@
 import chai from "chai";
 import slice from "../src/slice.js";
 
-describe("Slice", () => {
+describe("slice()", () => {
   it("Should return starting slice of array until given index", () => {
     const ref1 = ["alpha", "beta", "charlie"]
     const ref2 = ["alpha", "beta", "charlie", "gamma", 12, 15]

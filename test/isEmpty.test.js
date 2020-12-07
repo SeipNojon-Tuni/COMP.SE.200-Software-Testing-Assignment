@@ -1,7 +1,7 @@
 import chai from "chai";
 import isEmpty from "../src/isEmpty.js";
 
-describe("Is Empty", () => {
+describe("isEmpty()", () => {
   it("Should return true for empty values", () => {
     chai.expect(isEmpty(null)).to.equal(true);
     chai.expect(isEmpty("")).to.equal(true);
