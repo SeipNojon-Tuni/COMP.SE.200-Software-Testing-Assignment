@@ -22,4 +22,15 @@ describe("chunk()", () => {
     const result = chunk([1, 2, 3, 4], 2);
     chai.expect(result).to.equal([[1, 2],[3, 4]]);
   });
+
+  //Negative tests:
+  it("Should return [] when given an empty array", () => {
+    const result = chunk([], 2);
+    chai.expect(result).to.deep.equal([]);
+  });
+
+  it("Should return same array back if chunk length > array length", () => {
+    const result = chunk(['a', 'b', 'c', 'd'], 10);
+    chai.expect(result).to.equal(['a', 'b', 'c', 'd']);
+  });
 });
